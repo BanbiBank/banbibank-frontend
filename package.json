@@ -1,0 +1,26 @@
+{
+  "name": "banbibank-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "dev:dex": "turbo run dev --filter=dex... --concurrency=50",
+    "build:dex": "turbo run build --filter=dex...",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "changeset": "changeset",
+    "format:check": "biome check --write \"**/*.{js,jsx,ts,tsx,json}\"",
+    "format:write": "biome format --write --verbose .",
+    "format:check:staged": "lint-staged",
+    "version-packages": "changeset version && yarn install --mode update-lockfile",
+    "release-packages": "turbo run build --filter=./packages/* && changeset version && changeset publish"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@changesets/cli": "^2.27.12",
+    "lefthook": "^1.10.10",
+    "turbo": "^2.4.0"
+  }
+}
