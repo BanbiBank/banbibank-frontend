@@ -1,4 +1,12 @@
-# Banbibank Frontend
+# 🦌 Banbibank Frontend
+
+<p align="center">
+  <a href="https://banbibank-frontend-dex.vercel.app/logo.png">
+      <img src="https://banbibank-frontend-dex.vercel.app/logo.png" height="128">
+  </a>
+</p>
+
+This project contains the main features of the banbibank frontend.
 
 ## Release Process
 
