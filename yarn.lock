@@ -726,6 +726,7 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@changesets/cli": "npm:^2.27.12"
     lefthook: "npm:^1.10.10"
+    tilg: "npm:^0.1.1"
     turbo: "npm:^2.4.0"
   languageName: unknown
   linkType: soft
@@ -1717,6 +1718,15 @@ __metadata:
   version: 2.2.1
   resolution: "term-size@npm:2.2.1"
   checksum: 10c0/89f6bba1d05d425156c0910982f9344d9e4aebf12d64bfa1f460d93c24baa7bc4c4a21d355fbd7153c316433df0538f64d0ae6e336cc4a69fdda4f85d62bc79d
+  languageName: node
+  linkType: hard
+
+"tilg@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "tilg@npm:0.1.1"
+  peerDependencies:
+    react: ^18.0.0 || ^17.0.0
+  checksum: 10c0/aecd6916396578486f837256dbd6fd730aa153e4c29a904da37dafb652f7a86ab21204c0b3b0e214081e57e46aece712c7e59c22c4a5d85c5649e7c2c141513f
   languageName: node
   linkType: hard
 
